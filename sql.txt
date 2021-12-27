@@ -1,0 +1,50 @@
+##插入   博客的类别  的sql语句  
+// ----------------------------
+// Collection structure for categories
+// ----------------------------
+db.getCollection("categories").drop();
+db.createCollection("categories");
+
+// ----------------------------
+// Documents of categories
+// ----------------------------
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ebd3af143bac116b0165758"),
+    name: "AI",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ebd3afc43bac116b0165759"),
+    name: "机器学习",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ebd547d2815292a645bcbcf"),
+    name: "软件设计",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ebd5ba64ec6dd2ac45494e5"),
+    name: "数据库",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ebd8abe9a41c332645b40c2"),
+    name: "前端开发",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ebd8ad39a41c332645b40c3"),
+    name: "后端开发",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ecbbaced55dc71724005a62"),
+    name: "物联网",
+    __v: NumberInt("0")
+} ]);
+db.getCollection("categories").insert([ {
+    _id: ObjectId("5ecbbaced55dc71724005a63"),
+    name: "python",
+    __v: NumberInt("0")
+} ]);
